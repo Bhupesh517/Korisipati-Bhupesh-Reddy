@@ -13,10 +13,11 @@ class Calculator:
         else:
             return "Invalid operation"
 
-calc = Calculator()
+cal = Calculator()
 
 a = float(input("Enter a: "))
 b = float(input("Enter b: "))
 op = input("Enter operation (add/sub/mul/div): ")
 
-print("Result:", calc.calculate(a, b, op))
+print("Result:", cal.calculate(a, b, op))
+
